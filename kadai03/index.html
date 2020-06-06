@@ -30,6 +30,21 @@
    .bbb{
        background-color: {100, 40, 250};
    }
+   @keyframes animation-test{
+       0%{
+           left:0;
+       }
+       100%{
+           left:300px;
+       }
+   }
+   .animation{
+       animation: animation-test
+   }
+   .animation{
+       animation-duration: 3s
+   }
+
 
 
    </style>
@@ -41,5 +56,6 @@
     <!--これはコメントです-->
     <p class="box aaa">こんにちは</p>     
     <p class="box bbb">さようなら</p> 
+    <p class="box aaa animation">animation test</p>
  </body>
 </html>
